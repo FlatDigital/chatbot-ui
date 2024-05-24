@@ -26,6 +26,7 @@ export const ModelIcon: FC<ModelIconProps> = ({
   const { theme } = useTheme()
 
   switch (modelId as string) {
+    case "gpt-4o":
     case "gpt-4-1106-preview":
     case "gpt-4-vision-preview":
     case "gpt-3.5-turbo-1106":
